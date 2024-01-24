@@ -11,9 +11,11 @@ ul{
     list-style: none;
 }
 .menu_bg{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    padding: 25px 0;
+    height: 62px;
+    background-color: #1C1E53;
+    z-index: 999;
 }
 .menu_bg ul li a{
     padding: 0 16px !important;
