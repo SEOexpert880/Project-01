@@ -311,18 +311,18 @@
     }
     .building_text .name {
         margin: 40px 0 0 15px;
-        width: 260px;
+        width: 92%;
         height: 40px;
     }
     .building_text .email {
         height: 40px;
         margin: 16px 0 0 15px;
-        width: 260px;
+        width: 92%;
     }
     .building_text .figma {
         height: 40px;
         margin: 16px 0 0 15px;
-        width: 260px;
+        width: 92%;
         font-size: 15px;
     }
     .building_text .btn {
