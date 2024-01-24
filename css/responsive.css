@@ -1,0 +1,387 @@
+@media(max-width:575px){
+    .menu_bg button i{
+        font-size: 25px;
+        color: red;
+    }
+    .menu_bg button{
+        border: 2px solid red;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu_bg ul li{
+        background-color: #FCD980;
+        display: block;
+    }
+    .menu_bg ul li a{
+        color: #1B1C2B !important;
+    }
+    .menu_bg .contact{
+        background-color: #FCD980;
+    }
+    .menu_bg .contact a{
+        color: #1B1C2B !important;
+        margin: 0;
+    }
+    .menu_bg{
+        position: relative;
+        padding: 25px 0;
+        background-color: #1C1E53;
+    }
+    .menu_bg .nav_logo{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    #banner {
+        padding-top: 17px;
+        padding-bottom: 33px;
+    }
+    .ban_text h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .ban_text p {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .banner_img {
+        margin-top: 50px;
+    }
+    #work {
+        padding: 33px 0;
+    }
+    .work_text p {
+        font-size: 20px;
+        line-height: 39px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .work_text1{
+        margin-top: 15px;
+    }
+    .work_text2{
+        margin-top: 15px;
+    }
+    .work_text3{
+        margin-top: 15px;
+    }
+    .work_text4{
+        margin-top: 15px;
+    }
+    .view_main {
+        padding: 33px 0;
+    }
+    .view2_text {
+        margin-top: 4px;
+    }
+    .view_img {
+        margin-top: 23px;
+    }
+    .view_img img {
+        width: 96%;
+    }
+    .view_img_text {
+        top: 115px;
+    }
+    .view_img_text h3 {
+        font-size: 18px;
+        padding-right: 170px;
+    }
+    .view_img2 {
+        margin-top: 24px;
+    }
+    .view_img2_text {
+        top: 41px;
+        left: 26px;
+    }
+    .view_img2_text h3 {
+        font-size: 20px;
+        line-height: 32px;
+        padding-right: 6px;
+    }
+    .view_img3_text {
+        top: 41px;
+        left: 26px;
+    }
+    .view_img3_text h3 {
+        font-size: 20px;
+        line-height: 32px;
+        padding-right: 6px;
+    }
+    #features {
+        padding: 33px 0;
+    }
+    .features_text h3 {
+        font-size: 35px;
+        line-height: 51px;
+    }
+    .features_card3 {
+        margin-top: 24px;
+    }
+    .features_card1 h4 {
+        font-size: 23px;
+    }
+    .features_card1 p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .features_card2 h4 {
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 30px;
+    }
+    .features_card2 p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .features_card3 h4 {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .features_card4 h4 {
+        font-size: 17px;
+        line-height: 16px;
+    }
+    .features_card5 h4 {
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .features_card6 h4 {
+        font-size: 18px;
+        line-height: 9px;
+    }
+    #clients {
+        padding: 33px 0;
+    }
+    .clients_text h3 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .clients_text p {
+        font-size: 16px;
+        line-height: 12px;
+    }
+    .clients_text2 p {
+        font-size: 24px;
+        line-height: 37px;
+        margin-top: 25px;
+    }
+    .clients_img {
+        margin-top: 30px;
+    }
+    .frequently_text h3 {
+        font-size: 36px;
+        line-height: 26px;
+    }
+    .frequently_accordion{
+        margin-top: 25px;
+    }
+    #frequently {
+        padding: 85px 0;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .menu_bg button i{
+        font-size: 25px;
+        color: red;
+    }
+    .menu_bg button{
+        border: 2px solid red;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu_bg ul li{
+        background-color: #FCD980;
+        display: block;
+    }
+    .menu_bg ul li a{
+        color: #1B1C2B !important;
+    }
+    .menu_bg .contact{
+        background-color: #FCD980;
+    }
+    .menu_bg .contact a{
+        color: #1B1C2B !important;
+        margin: 0;
+    }
+    .menu_bg{
+        position: relative;
+        padding: 25px 0;
+        background-color: #1C1E53;
+    }
+    .menu_bg .nav_logo{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    #banner {
+        padding-top: 17px;
+        padding-bottom: 33px;
+    }
+    .ban_text h1 {
+        font-size: 56px;
+        font-weight: 500;
+        line-height: 79px;
+    }
+    .ban_text p {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .banner_img {
+        margin-top: 50px;
+    }
+    #work {
+        padding: 33px 0;
+    }
+    .work_text p {
+        font-size: 20px;
+        line-height: 39px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .work_text1{
+        margin-top: 15px;
+    }
+    .work_text2{
+        margin-top: 15px;
+    }
+    .work_text3{
+        margin-top: 15px;
+    }
+    .work_text4{
+        margin-top: 15px;
+    }
+    .view_main {
+        padding: 33px 0;
+    }
+    .view2_text {
+        margin-top: 4px;
+    }
+    .view_img {
+        margin-top: 23px;
+    }
+    .view_img img {
+        width: 96%;
+    }
+    .view_img_text {
+        top: 115px;
+    }
+    .view_img_text h3 {
+        font-size: 18px;
+        padding-right: 170px;
+    }
+    .view_img2 {
+        margin-top: 24px;
+    }
+    .view_img2_text {
+        top: 41px;
+        left: 26px;
+    }
+    .view_img2_text h3 {
+        font-size: 20px;
+        line-height: 32px;
+        padding-right: 6px;
+    }
+    .view_img3_text {
+        top: 41px;
+        left: 26px;
+    }
+    .view_img3_text h3 {
+        font-size: 20px;
+        line-height: 32px;
+        padding-right: 6px;
+    }
+    #features {
+        padding: 33px 0;
+    }
+    .features_text h3 {
+        font-size: 35px;
+        line-height: 51px;
+    }
+    .features_card3 {
+        margin-top: 24px;
+    }
+    .features_card1 h4 {
+        font-size: 23px;
+    }
+    .features_card1 p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .features_card2 h4 {
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 30px;
+    }
+    .features_card2 p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .features_card3 h4 {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .features_card4 h4 {
+        font-size: 17px;
+        line-height: 16px;
+    }
+    .features_card5 h4 {
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .features_card6 h4 {
+        font-size: 18px;
+        line-height: 9px;
+    }
+    #clients {
+        padding: 33px 0;
+    }
+    .clients_text h3 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .clients_text p {
+        font-size: 16px;
+        line-height: 12px;
+    }
+    .clients_text2 p {
+        font-size: 24px;
+        line-height: 37px;
+        margin-top: 25px;
+    }
+    .clients_img {
+        margin-top: 30px;
+    }
+    .frequently_text h3 {
+        font-size: 36px;
+        line-height: 26px;
+    }
+    .frequently_accordion{
+        margin-top: 25px;
+    }
+    #frequently {
+        padding: 85px 0;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:1200px) and (max-width:1399px){
+
+}
+@media(min-width:1400px){
+
+}
