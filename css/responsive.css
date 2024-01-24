@@ -40,40 +40,89 @@
         padding-bottom: 33px;
     }
     .ban_text h1 {
-        font-size: 27px;
-        line-height: 45px;
+        font-size: 21px;
+        line-height: 37px;
     }
     .ban_text p {
-        font-size: 16px;
-        line-height: 27px;
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .banner_button {
+        margin-top: 24px;
+    }
+    .ban_text_price {
+        bottom: -63px;
+        left: 29px;
+    }
+    .ban_text_price a {
+        letter-spacing: 6px;
     }
     .banner_img {
-        margin-top: 50px;
+        margin-top: 80px;
     }
     #work {
         padding: 33px 0;
     }
     .work_text p {
-        font-size: 20px;
-        line-height: 39px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .work_btn {
+        margin-top: 15px;
     }
     p {
         margin-bottom: 0;
     }
     .work_text1{
-        margin-top: 15px;
+        margin-top: 30px;
+    }
+    .work_text1 h3 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .work_text1 p {
+        font-size: 13px;
+        line-height: 25px;
     }
     .work_text2{
-        margin-top: 15px;
+        margin-top: 30px;
+    }
+    .work_text2 h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .work_text2 p {
+        font-size: 13px;
+        line-height: 26px;
     }
     .work_text3{
         margin-top: 15px;
     }
+    .work_text3 h3 {
+        font-size: 30px;
+    }
+    .work_text3 p {
+        font-size: 13px;
+        line-height: 25px;
+    }
     .work_text4{
         margin-top: 15px;
     }
+    .work_text4 h3 {
+        font-size: 18px;
+        line-height: 58px;
+    }
+    .work_text4 p {
+        font-size: 13px;
+        line-height: 25px;
+        margin-top: -10px;
+    }
     .view_main {
         padding: 33px 0;
+    }
+    .view_text h4 {
+        font-size: 29px;
+        line-height: 50px;
     }
     .view2_text {
         margin-top: 4px;
@@ -85,7 +134,8 @@
         width: 96%;
     }
     .view_img_text {
-        top: 115px;
+        top: 20px;
+        left: 15px;
     }
     .view_img_text h3 {
         font-size: 18px;
@@ -116,66 +166,119 @@
         padding: 33px 0;
     }
     .features_text h3 {
-        font-size: 35px;
-        line-height: 51px;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .features_card1 {
+        padding: 15px 0 15px 10px;
+    }
+    .features_card1 h4 {
+        font-size: 12px;
+        line-height: -1px;
+        margin-top: 0;
+    }
+    .features_card1 p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .features_card2 {
+        padding: 15px 0 15px 10px;
+    }
+    .features_card2 h4 {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 0;
+    }
+    .features_card2 p {
+        font-size: 10px;
+        line-height: 14px;
     }
     .features_card3 {
         margin-top: 24px;
     }
-    .features_card1 h4 {
-        font-size: 23px;
-    }
-    .features_card1 p {
-        font-size: 15px;
-        line-height: 23px;
-    }
-    .features_card2 h4 {
-        font-size: 15px;
-        line-height: 19px;
-        margin-top: 30px;
-    }
-    .features_card2 p {
-        font-size: 16px;
-        line-height: 24px;
+    .features_card3 {
+        padding: 15px 0 15px 10px;
     }
     .features_card3 h4 {
-        font-size: 15px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 0;
+    }
+    .features_card3 p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .features_card4 {
+        padding: 15px 0 15px 10px;
     }
     .features_card4 h4 {
-        font-size: 17px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    .features_card4 p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .features_card5 {
+        padding: 15px 0 15px 10px;
     }
     .features_card5 h4 {
-        font-size: 17px;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 0;
     }
-    .features_card6 h4 {
-        font-size: 18px;
-        line-height: 9px;
+    .features_card5 p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .features_card6{
+        padding: 15px 0 15px 10px;
+    }
+    .features_card6 h4{
+        font-size: 10px;
+        line-height: 18px;
+        margin-top: 0;
+    }
+    .features_card6 p {
+        font-size: 10px;
+        line-height: 14px;
     }
     #clients {
         padding: 33px 0;
     }
     .clients_text h3 {
-        font-size: 34px;
+        font-size: 31px;
         line-height: 40px;
     }
     .clients_text p {
-        font-size: 16px;
-        line-height: 12px;
+        font-size: 17px;
+        line-height: 26px;
     }
     .clients_text2 p {
-        font-size: 24px;
+        font-size: 16px;
         line-height: 37px;
-        margin-top: 25px;
+        margin-top: 20px;
     }
     .clients_img {
         margin-top: 30px;
     }
     .frequently_text h3 {
-        font-size: 36px;
-        line-height: 26px;
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .accordion-button h4 {
+        font-size: 12px;
+        line-height: 24px;
+        padding-left: 22px;
+    }
+    .accordion-body p {
+        font-size: 15px;
+        line-height: 28px;
+        padding-left: 0;
+    }
+    .accordion-button {
+        padding: 0;
     }
     .frequently_accordion{
         margin-top: 25px;
@@ -183,6 +286,110 @@
     #frequently {
         padding: 85px 0;
     }
+    .building_img h3 {
+        font-size: 20px;
+        line-height: 35px;
+        padding: 32px 15px 0 15px;
+    }
+    .building_img p {
+        font-size: 18px;
+        padding: 0px 15px 0 15px;
+    }
+    .building_img {
+        width: 100%;
+        height: 314px;
+    }
+    .building_text {
+        height: 581px;
+    }
+    .building_text h3 {
+        padding: 42px 0 0 15px;
+    }
+    .building_text p {
+        line-height: 28px;
+        padding: 0px 0 0 18px;
+    }
+    .building_text .name {
+        margin: 40px 0 0 15px;
+        width: 260px;
+        height: 40px;
+    }
+    .building_text .email {
+        height: 40px;
+        margin: 16px 0 0 15px;
+        width: 260px;
+    }
+    .building_text .figma {
+        height: 40px;
+        margin: 16px 0 0 15px;
+        width: 260px;
+        font-size: 15px;
+    }
+    .building_text .btn {
+        font-size: 18px;
+        padding: 16px 58px;
+        margin: 20px 0 0 15px;
+    }
+    #blog {
+        padding: 25px 0;
+    }
+    .blog_text1 h5 {
+        margin-top: 8px;
+    }
+    .blog_text1 h3 {
+        line-height: 32px;
+        margin-top: 0px;
+    }
+    .blog_text1 p {
+        margin-top: 0px;
+    }
+    .blog_text1 a {
+        margin-top: 0;
+    }
+    .blog_text2{
+        margin-top: 35px;
+    }
+    .blog_text2 h5 {
+        margin-top: 8px;
+    }
+    .blog_text2 h3 {
+        margin-top: 0;
+    }
+    .blog_text2 p {
+        margin-top: 0;
+    }
+    .blog_text2 a {
+        margin-top: 0;
+    }
+    .blog_text3{
+        margin-top: 35px;
+    }
+    .blog_text3 h5 {
+        margin-top: 8px;
+    }
+    .blog_text3 h3 {
+        margin-top: 0;
+    }
+    .blog_text3 p {
+        margin-top: 0;
+    }
+    .blog_text3 a {
+        margin-top: 0;
+    }
+    #footer {
+        padding-top: 50px;
+    }
+    .footer_contact {
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+    .footer_contact_call {
+        padding-left: 0px;
+    }
+    .footer_contact_mail h4 {
+        line-height: 0px;
+    }
+
 }
 @media(min-width:576px) and (max-width:767px){
     .menu_bg button i{
