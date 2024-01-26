@@ -165,113 +165,75 @@
     #features {
         padding: 33px 0;
     }
-    .features_card1 i {
-        
-        height: 50px;
-        width: 50px;
-    }
-    .features_card2 i {
-        
-        height: 50px;
-        width: 50px;
-    }
-    .features_card3 i {
-        
-        height: 50px;
-        width: 50px;
-    }
-    .features_card4 i {
-      
-        height: 50px;
-        width: 50px;
-    }
-    .features_card5 i {
-        height: 50px;
-        width: 50px;
-    }
-    .features_card6 i {
-        height: 50px;
-        width: 50px;
-    }
     .features_text h3 {
-        font-size: 17px;
+        font-size: 23px;
         line-height: 29px;
     }
     .features_card1 {
-        padding: 15px 0 15px 10px;
+        padding: 30px 10px 30px 30px;
     }
     .features_card1 h4 {
-        font-size: 12px;
-        line-height: -1px;
-        margin-top: 0;
+        margin-top: 10px;
     }
     .features_card1 p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
     }
     .features_card2 {
-        padding: 15px 0 15px 10px;
+        padding: 30px 10px 30px 30px;
+        margin-top: 25px;
     }
     .features_card2 h4 {
-        font-size: 12px;
-        line-height: 18px;
-        margin-top: 0;
+        font-size: 22px;
+        margin-top: 10px;
     }
     .features_card2 p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
     }
     .features_card3 {
-        margin-top: 24px;
-    }
-    .features_card3 {
-        padding: 15px 0 15px 10px;
+        padding: 30px 10px 30px 30px;
+        margin-top: 25px;
     }
     .features_card3 h4 {
-        font-size: 12px;
-        line-height: 18px;
-        margin-top: 0;
+        font-size: 22px;
+        margin-top: 10px;
     }
     .features_card3 p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
     }
-    .features_card4 {
-        padding: 15px 0 15px 10px;
+    .features_card4{
+        padding: 30px 10px 30px 30px;
+        margin-top: 25px;
     }
     .features_card4 h4 {
-        font-size: 12px;
-        line-height: 36px;
-        margin-top: 0;
+        font-size: 22px;
+        margin-top: 10px;
     }
     .features_card4 p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
     }
-    .features_card5 {
-        padding: 15px 0 15px 10px;
+    .features_card5{
+        padding: 30px 10px 30px 30px;
+        margin-top: 25px;
     }
     .features_card5 h4 {
-        font-size: 12px;
-        line-height: 18px;
-        margin-top: 0;
+        font-size: 22px;
+        margin-top: 10px;
     }
     .features_card5 p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
     }
     .features_card6{
-        padding: 15px 0 15px 10px;
+        padding: 30px 10px 30px 30px;
+        margin-top: 25px;
     }
-    .features_card6 h4{
-        font-size: 10px;
-        line-height: 18px;
-        margin-top: 0;
+    .features_card6 h4 {
+        font-size: 22px;
+        margin-top: 10px;
     }
     .features_card6 p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
     }
+
     #clients {
         padding: 33px 0;
     }
@@ -741,7 +703,134 @@
     }
 }
 @media(min-width:992px) and (max-width:1199px){
-
+    #banner {
+        padding-bottom: 65px;
+    }
+    .ban_text h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .ban_text p {
+        font-size: 18px;
+    }
+    .ban_text_price {
+        bottom: -18px;
+        left: 258px;
+    }
+    #work {
+        padding: 55px 0;
+    }
+    .work_text h3 {
+        font-size: 32px;
+    }
+    .work_text p {
+        font-size: 15px;
+    }
+    .view_main {
+        padding: 45px 0;
+    }
+    .view_img_text {
+        top: 200px;
+    }
+    .view_img_text h3 {
+        padding-right: 260px;
+    }
+    .view_img2_text {
+        top: 65px;
+    }
+    .view_img3_text {
+        top: 65px;
+    }
+    #features {
+        padding: 40px 0;
+    }
+    .features_text h3 {
+        font-size: 35px;
+        line-height: 51px;
+    }
+    .features_card2 h4 {
+        font-size: 19px;
+    }
+    .features_card3 h4 {
+        font-size: 19px;
+    }
+    .features_card6 h4 {
+        font-size: 22px;
+    }
+    #clients {
+        padding: 45px 0;
+    }
+    .clients_text h3 {
+        font-size: 35px;
+    }
+    .clients_text p {
+        font-size: 14px;
+    }
+    .clients_text2 p {
+        font-size: 28px;
+    }
+    #frequently {
+        padding: 60px 0;
+    }
+    .frequently_text h3 {
+        font-size: 33px;
+    }
+    .accordion-button h4 {
+        font-size: 21px;
+    }
+    .building_text h3 {
+        padding: 45px 0 0 45px;
+    }
+    .building_text p {
+        padding: 16px 0 0 45px;
+    }
+    .building_text .name {
+        margin: 40px 0 0 45px;
+        width: 85%;
+    }
+    .building_text .email {
+        margin: 16px 0 0 45px;
+        width: 85%;
+    }
+    .building_text .figma {
+        margin: 16px 0 0 45px;
+        width: 85%;
+    }
+    .building_img h3 {
+        font-size: 48px;
+    }
+    .building_text .btn {
+        font-size: 17px;
+        padding: 16px 84px;
+        margin: 35px 0 0 65px;
+    }
+    #blog {
+        padding: 45px 0;
+    }
+    .blog_main {
+        margin-top: 24px;
+    }
+    .blog_text1 a {
+        margin-top: 0;
+    }
+    .blog_text2 a {
+        margin-top: 0;
+    }
+    .blog_text3 a {
+        margin-top: 0;
+    }
+    #footer {
+        padding-top: 45px;
+    }
+    .footer_contact_call a {
+        font-size: 15px;
+    }
+    .footer_menu_text h5 {
+        font-size: 14px;
+    }
+    .footer_menu_main ul li a {
+        font-size: 13px;
+    }
 }
 @media(min-width:1200px) and (max-width:1399px){
 
