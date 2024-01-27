@@ -11,7 +11,11 @@ ul{
 }
 .menu_bg{
     background-color: #1C1E53;
-    height: 92px;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+
 }
 .menu_bg ul li a{
     padding: 0 16px !important;
@@ -517,3 +521,351 @@ ul{
     color: #282938;
 }
 /* <!----------------------------- footer part end -----------------------------> */
+
+
+/*-------------------------- Responsive Part Start ------------------------------*/
+
+@media(max-width:991px){
+    .menu_bg button i{
+        font-size: 25px;
+        color: red;
+    }
+    .menu_bg button{
+        border: 2px solid red;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu_bg ul li{
+        background-color: #FCD980;
+    }
+    .menu_bg ul li a{
+        color: #1B1C2B !important;
+    }
+    .menu_bg .contact{
+        background-color: #FCD980;
+    }
+    .menu_bg .contact a{
+        color: #1B1C2B !important;
+        margin: 0;
+        padding: 0 0 0 14px;
+        border: 2px solid transparent;
+    }
+    .menu_bg{
+        position: relative;
+        padding: 25px 0;
+        background-color: #1C1E53;
+    }
+    .menu_bg .nav_logo{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    #footer {
+        padding-top: 35px;
+    }
+    .footer_contact {
+        margin-top: 50px;
+        padding-left: 0;
+    }
+    .footer_contact_mail h4 {
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .footer_contact_mail a {
+        font-size: 15px;
+        line-height: 6px;
+    }
+    .footer_contact_call h4 {
+        font-size: 16px;
+        line-height: 7px;
+    }
+    .footer_contact_call a {
+        font-size: 14px;
+        line-height: 6px;
+    }
+    .footer_talk_icon{
+        text-align: center;
+    }
+    .footer_menu_text{
+        text-align: center;
+    }
+    ol, ul {
+        padding-left: 0;
+    }
+    .footer_menu_main ul li a {
+        font-size: 12px;
+    }
+    .footer_menu_main{
+        text-align: center;
+    }
+}
+
+@media(max-width:575px){
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ban_text h1 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+    .working_text {
+        padding: 0;
+    }
+    .working_text h4 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .working_card1 {
+        padding: 15px 0 15px 13px;
+    }
+    .working_card2 {
+        padding: 15px 0 15px 13px;
+        margin-top: 25px;
+    }
+    .working_card3 {
+        padding: 15px 0 15px 13px;
+        margin-top: 25px;
+    }
+    #working {
+        padding: 0px 0;
+    }
+    .user_text h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .user_text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .revision_text h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .support_text {
+        margin-top: 0px;
+    }
+    .support_text h3 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    #delivery {
+        padding: 50px 0;
+    }
+    .delivery_text h3 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    #frequently {
+        padding: 30px 0;
+    }
+    .accordion-button h4 {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .accordion-body p {
+        font-size: 15px;
+        line-height: 28px;
+        padding-left: 39px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    #banner {
+        padding: 50px 0;
+    }
+    .ban_text h1 {
+        font-size: 53px;
+    }
+    .ban_text p {
+        font-size: 18px;
+    }
+    #working {
+        padding: 50px 0;
+    }
+    .working_text {
+        padding: 0;
+    }
+    .working_text h4 {
+        font-size: 43px;
+        line-height: 55px;
+    }
+    .working_card1 p {
+        padding-right: 119px;
+    }
+    .working_card1 {
+        padding: 20px 0 20px 15px;
+    }
+    .working_card1 p {
+        padding-right: 152px;
+    }
+    .working_card2 {
+        padding: 20px 0 20px 15px;
+        margin-top: 25px;
+    }
+    .working_card2 p {
+        padding-right: 152px;
+    }
+    .working_card3 {
+        padding: 20px 0 20px 15px;
+        margin-top: 25px;
+    }
+    .working_card3 p {
+        padding-right: 152px;
+    }
+    #revision {
+        padding: 30px 0;
+        background-color: #F4F6FC;
+    }
+    #client {
+        padding: 0;
+    }
+    .user_text h3 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    #support {
+        padding: 10px 0;
+    }
+    .support_text h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    #delivery {
+        padding: 50px 0;
+    }
+    .delivery_text h3 {
+        font-size: 34px;
+    }
+    #frequently {
+        padding: 20px 0;
+    }
+    .accordion-button h4 {
+        font-size: 19px;
+        padding-left: 14px;
+    }
+    .footer_contact{
+        justify-content: space-around;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .ban_text h1 {
+        padding-right: 206px;
+    }
+    .ban_text p {
+        padding-right: 217px;
+    }
+    #working {
+        padding: 40px 0;
+    }
+    .working_text1 h3 {
+        font-size: 25px;
+    }
+    .working_text1 h5 {
+        font-size: 13px;
+        line-height: 0;
+    }
+    .working_text {
+        padding: 0 25px;
+    }
+    .working_card1 {
+        padding: 10px 0 10px 10px;
+    }
+    .working_card1 h4 {
+        font-size: 19px;
+    }
+    .working_card1 p {
+        font-size: 14px;
+    }
+    .working_card2 {
+        padding: 10px 0 10px 10px;
+    }
+    .working_card2 h4 {
+        font-size: 19px;
+    }
+    .working_card2 p {
+        font-size: 14px;
+    }
+    .working_card3 {
+        padding: 10px 0 10px 10px;
+    }
+    .working_card3 h4 {
+        font-size: 19px;
+    }
+    .working_card3 p {
+        font-size: 14px;
+    }
+    #client {
+        padding: 10px 0;
+    }
+    #revision {
+        padding: 30px 0;
+    }
+    #support {
+        padding: 10px 0;
+    }
+    #delivery {
+        padding: 50px 0;
+    }
+    #frequently {
+        padding: 10px 0;
+    }
+    .footer_contact{
+        justify-content: space-around;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .ban_text h1 {
+        font-size: 49px;
+    }
+    .ban_text p {
+        font-size: 14px;
+    }
+    #banner {
+        padding-bottom: 50px;
+    }
+    .working_text h4 {
+        font-size: 42px;
+    }
+    #working {
+        padding: 30px 0;
+    }
+    .working_card1 h4 {
+        font-size: 23px;
+    }
+    .working_card2 h4 {
+        font-size: 23px;
+    }
+    #delivery {
+        padding: 60px 0;
+    }
+    #frequently {
+        padding: 50px 0;
+    }
+    #footer {
+        padding-top: 50px;
+    }
+    .footer_contact {
+        justify-content: space-around;
+        padding-left: 0;
+    }
+    #footer_menu {
+        padding: 32px 0 0 0;
+    }
+}
+@media(min-width:1200px) and (max-width:1399px){
+
+}
+@media(min-width:1400px){
+
+}
+
+
+
+/*-------------------------- Responsive Part end --------------------------------*/

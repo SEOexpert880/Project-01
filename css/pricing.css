@@ -1264,3 +1264,332 @@ ul{
     color: #282938;
 }
 /* <!----------------------------- footer part end -----------------------------> */
+
+
+/*------------------------------- Responsive Part Start ---------------------------*/
+
+@media(max-width:991px){
+    .menu_bg button i{
+        font-size: 25px;
+        color: red;
+    }
+    .menu_bg button{
+        border: 2px solid red;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu_bg ul li{
+        background-color: #FCD980;
+    }
+    .menu_bg ul li a{
+        color: #1B1C2B !important;
+    }
+    .menu_bg .contact{
+        background-color: #FCD980;
+    }
+    .menu_bg .contact a{
+        color: #1B1C2B !important;
+        margin: 0;
+        padding: 0 0 0 14px;
+        border: 2px solid transparent;
+    }
+    .menu_bg{
+        position: relative;
+        padding: 25px 0;
+        background-color: #1C1E53;
+    }
+    .menu_bg .nav_logo{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    #footer {
+        padding-top: 35px;
+    }
+    .footer_contact {
+        margin-top: 50px;
+        padding-left: 0;
+        justify-content: space-around;
+    }
+    .footer_contact_mail h4 {
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .footer_contact_mail a {
+        font-size: 15px;
+        line-height: 6px;
+    }
+    .footer_contact_call h4 {
+        font-size: 16px;
+        line-height: 7px;
+    }
+    .footer_contact_call a {
+        font-size: 14px;
+        line-height: 6px;
+    }
+    .footer_talk_icon{
+        text-align: center;
+    }
+    .footer_menu_text{
+        text-align: center;
+    }
+    ol, ul {
+        padding-left: 0;
+    }
+    .footer_menu_main ul li a {
+        font-size: 12px;
+    }
+    .footer_menu_main{
+        text-align: center;
+    }
+}
+@media(max-width:575px){
+    #pricing {
+        padding: 30px 0;
+    }
+    .pricing_text h1 {
+        font-size: 35px;
+    }
+    .pricing_text p {
+        font-size: 14px;
+        padding: 0;
+    }
+    .pricing_card {
+        margin-top: 20px;
+    }
+    .pricing_card1 {
+        padding: 12px 0 25px 20px;
+    }
+    .pricing_card2 {
+        padding: 12px 0 25px 20px;
+        margin-top: 25px;
+    }
+    .pricing_card3 {
+        padding: 12px 0 25px 20px;
+        margin-top: 25px;
+    }
+    #frequently {
+        padding: 10px 0;
+    }
+    .accordion-button h4 {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .accordion-body p {
+        font-size: 13px;
+        line-height: 27px;
+        padding-left: 25px;
+    }
+} 
+@media(min-width:576px) and (max-width:767px){
+    #pricing {
+        padding: 40px 0;
+    }
+    .pricing_card {
+        margin-top: 20px;
+    }
+    .pricing_text p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .pricing_card1 {
+        padding: 20px 56px 30px 120px;
+    }
+    .pricing_card2 {
+        padding: 20px 56px 30px 120px;
+        margin-top: 25px;
+    }
+    .pricing_card3 {
+        padding: 20px 56px 30px 120px;
+        margin-top: 25px;
+    }
+    #frequently {
+        padding: 10px 0;
+    }
+    .accordion-button h4 {
+        font-size: 19px;
+        padding-left: 18px;
+    }
+    .accordion-body p {
+        font-size: 17px;
+        padding-left: 29px;
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    #pricing {
+        padding: 25px 0;
+    }
+    .pricing_text p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .pricing_card1 {
+        padding: 10px 0 30px 10px;
+    }
+    .pricing_card1_dlr h4 {
+        font-size: 30px;
+    }
+    .pricing_card1_dlr span {
+        left: 43%;
+    }
+    .pricing_card1_dlr p {
+        font-size: 13px;
+    }
+    .pricing_card1_list1 {
+        margin-top: 10px;
+    }
+    .pricing_card1_btn {
+        margin-top: 23px;
+    }
+    .pricing_card1_btn a {
+        padding: 16px 37.5px;
+    }
+    .pricing_card1::before {
+        left: -467px;
+        bottom: 82px;
+    }
+    .pricing_card2 {
+        padding: 10px 0 30px 10px;
+    }
+    .pricing_card2_dlr h4 {
+        font-size: 30px;
+    }
+    .pricing_card2_dlr span {
+        top: 8%;
+        left: 44%;
+    }
+    .pricing_card2_dlr p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .pricing_card2_btn a {
+        padding: 16px 41.5px;
+    }
+    .pricing_card2_btn {
+        margin-top: 23px;
+    }
+    .pricing_card2::before {
+        left: -470px;
+        bottom: 79px;
+    }
+    .pricing_card3 {
+        padding: 10px 0 30px 10px;
+    }
+    .pricing_card3_dlr h4 {
+        font-size: 30px;
+    }
+    .pricing_card3_dlr span {
+        top: 11%;
+        left: 52%;
+    }
+    .pricing_card3_dlr p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .pricing_card3_btn a {
+        padding: 16px 41.5px;
+    }
+    .pricing_card3_btn {
+        margin-top: 23px;
+    }
+    .pricing_card3::before {
+        left: -470px;
+        bottom: 79px;
+    }
+    .pricing_card3_list2 {
+        margin-top: 5px;
+    }
+    .pricing_card3_list3 {
+        margin-top: 5px;
+    }
+    .pricing_card3_list4 {
+        margin-top: 5px;
+    }
+    .pricing_card3_list5 {
+        margin-top: 5px;
+    }
+    .pricing_card3_list6 {
+        margin-top: 5px;
+    }
+    #frequently {
+        padding: 20px 0;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    #pricing {
+        padding: 40px 0;
+    }
+    .pricing_text p {
+        padding: 0 199px;
+    }
+    .pricing_card {
+        margin-top: 25px;
+    }
+    .pricing_card1 {
+        padding: 25px 0 35px 30px;
+    }
+    .pricing_card1_dlr span {
+        left: 44%;
+    }
+    .pricing_card1_btn a {
+        padding: 16px 64.5px;
+    }
+    .pricing_card1::before {
+        left: -430px;
+        bottom: 118px;
+    }
+    .pricing_card2 {
+        padding: 25px 0 35px 30px;
+    }
+    .pricing_card2_dlr span {
+        left: 44%;
+    }
+    .pricing_card2_btn a {
+        padding: 16px 64.5px;
+    }
+    .pricing_card2::before {
+        left: -430px;
+        bottom: 118px;
+    }
+    .pricing_card3 {
+        padding: 25px 0 35px 30px;
+    }
+    .pricing_card3_dlr span {
+        left: 44%;
+    }
+    .pricing_card3_btn a {
+        padding: 16px 64.5px;
+    }
+    .pricing_card3::before {
+        left: -430px;
+        bottom: 118px;
+    }
+    #frequently {
+        padding: 30px 0;
+    }
+    .accordion-button h4 {
+        font-size: 21px;
+    }
+    .frequently_text h3 {
+        font-size: 33px;
+    }
+    #footer {
+        padding-top: 40px;
+    }
+    .footer_contact {
+        justify-content: space-around;
+        padding-left: 0;
+    }
+}
+@media(min-width:1200px) and (max-width:1399px){
+
+}
+@media(min-width:1400px){
+
+}
+
+/*------------------------------- Responsive Part end ------------------------------*/
