@@ -421,3 +421,230 @@ ul{
     color: #282938;
 }
 /* <!----------------------------- footer part end -----------------------------> */
+
+
+
+
+/*-------------------------------- Responsive Part Start ------------------------*/
+
+@media(max-width:991px){
+    .menu_bg button i{
+        font-size: 25px;
+        color: red;
+    }
+    .menu_bg button{
+        border: 2px solid red;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu_bg ul li{
+        background-color: #FCD980;
+    }
+    .menu_bg ul li a{
+        color: #1B1C2B !important;
+    }
+    .menu_bg .contact{
+        background-color: #FCD980;
+    }
+    .menu_bg .contact a{
+        color: #1B1C2B !important;
+        margin: 0;
+        padding: 0 0 0 14px;
+        border: 2px solid transparent;
+    }
+    .menu_bg{
+        position: relative;
+        padding: 25px 0;
+        background-color: #1C1E53;
+    }
+    .menu_bg .nav_logo{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    #footer {
+        padding-top: 35px;
+    }
+    .footer_contact {
+        margin-top: 50px;
+        padding-left: 0;
+        justify-content: space-around;
+    }
+    .footer_contact_mail h4 {
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .footer_contact_mail a {
+        font-size: 15px;
+        line-height: 6px;
+    }
+    .footer_contact_call h4 {
+        font-size: 16px;
+        line-height: 7px;
+    }
+    .footer_contact_call a {
+        font-size: 14px;
+        line-height: 6px;
+    }
+    .footer_talk_icon{
+        text-align: center;
+    }
+    .footer_menu_text{
+        text-align: center;
+    }
+    ol, ul {
+        padding-left: 0;
+    }
+    .footer_menu_main ul li a {
+        font-size: 12px;
+    }
+    .footer_menu_main{
+        text-align: center;
+    }
+}
+@media(max-width:575px){
+    #created {
+        padding: 30px 0;
+    }
+    .created_text h1 {
+        font-size: 36px;
+    }
+    .created_text p {
+        font-size: 14px;
+        padding: 0;
+    }
+    #template {
+        padding: 30px 0;
+    }
+    .template_menu {
+        text-align: start;
+    }
+    .template_menu ul li a {
+        padding: 0px 6px;
+        font-size: 13px;
+    }
+    .template_main {
+        margin-top: 10px;
+    }
+    .template2_img {
+        margin-top: 35px;
+    }
+    .template3_img {
+        margin-top: 35px;
+    }
+    .template4_img {
+        margin-top: 35px;
+    }
+    .template5_img {
+        margin-top: 35px;
+    }
+    .template6_img {
+        margin-top: 35px;
+    }
+    .build_text {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .build_text h4 {
+        font-size: 31px;
+        line-height: 45px;
+        padding: 0;
+    }
+    .build_text p {
+        padding: 0;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    #created {
+        padding: 30px 0;
+    }
+    .created_text p {
+        padding: 0;
+    }
+    #template {
+        padding: 30px 0;
+    }
+    .template_menu ul li a {
+        padding: 0 15px;
+    }
+    .template_main {
+        margin-top: 25px;
+    }
+    .template3_img {
+        margin-top: 35px;
+    }
+    .template4_img {
+        margin-top: 35px;
+    }
+    .template5_img {
+        margin-top: 35px;
+    }
+    .template6_img {
+        margin-top: 35px;
+    }
+    .build_text {
+        margin-top: 30px;
+    }
+    .build_text h4 {
+        font-size: 41px;
+        padding: 0;
+    }
+    .build_text p {
+        padding: 0;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    #created {
+        padding: 30px 0;
+    }
+    .created_text p {
+        padding: 0;
+    }
+    #template {
+        padding: 35px 0;
+    }
+    .template_main {
+        margin-top: 15px;
+    }
+    .build_text {
+        margin-top: 40px;
+    }
+    .build_text h4 {
+        padding: 0;
+    }
+    .build_text p {
+        padding: 0 66px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    #created {
+        padding: 30px 0;
+    }
+    .created_text p {
+        padding: 0 103px;
+    }
+    #template {
+        padding: 35px 0;
+    }
+    .build_text {
+        margin-top: 50px;
+    }
+    .build_text p {
+        padding: 0px 189px;
+    }
+    .footer_contact {
+        justify-content: space-around;
+        padding-left: 0;
+    }
+}
+@media(min-width:1200px) and (max-width:1399px){
+
+}
+@media(min-width:1400px){
+
+}
+
+/*-------------------------------- Responsive Part end --------------------------*/
