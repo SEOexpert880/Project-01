@@ -13,7 +13,6 @@
     }
     .menu_bg ul li{
         background-color: #FCD980;
-        display: block;
     }
     .menu_bg ul li a{
         color: #1B1C2B !important;
@@ -24,6 +23,7 @@
     .menu_bg .contact a{
         color: #1B1C2B !important;
         margin: 0;
+
     }
     .menu_bg{
         position: relative;
